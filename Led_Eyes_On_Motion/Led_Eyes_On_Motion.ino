@@ -15,7 +15,7 @@ LedControl lc = LedControl(PIN_EYES_DIN, PIN_EYES_CLK, PIN_EYES_CS, 2);
 bool rotateMatrix0 = false;  // rotate 0 matrix by 180 deg
 bool rotateMatrix1 = false;  // rotate 1 matrix by 180 deg
 
-// Motion Sensor
+// Motion Sensor pin definition
 int ledPin = 13;                // choose the pin for the LED
 int inputPin = 2;               // choose the input pin (for PIR sensor)
 int pirState = LOW;             // we start, assuming no motion detected
